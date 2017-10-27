@@ -1,0 +1,106 @@
+
+
+html, body, #bigimg{
+	height: 100%;
+	width: 100%;
+	margin:0%;
+}
+
+body{
+	min-width: 800px;
+	min-height: 400px;
+}
+
+img{
+	position: absolute;
+	margin: :0%;
+	height: 100%;
+	width: 100%;
+}
+#roommap{
+
+	width: 100px;
+	height: 100px;
+}
+
+#bigimg{
+	position: relative;
+}
+
+#textbox{
+	position: absolute;
+	top:10%;
+	left: 7%;
+	display: none;
+}
+
+#screen{
+	font-family: Share Tech Mono;
+	padding: 5%;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+}
+
+#screen button{
+	font-family: Share Tech Mono;
+	font-size: 1.2em;
+	color: gray;
+	background-color: white;
+	border: none;
+
+}
+
+#lab, #letter, #sign{
+	background-color: white;
+	padding: 5%;
+	margin: 0 10%;
+	font-size: 1.3em;
+	height: 70%;
+	overflow: scroll;
+}
+
+#lab{
+	font-family: Reenie Beanie, cursive;
+	font-size: 1.5em;
+	background-image: url(../images/graph-paper2.jpg);
+	background-size: 100% 50%;
+	background-attachment: local;
+	line-height: 1.5em;
+	letter-spacing: .05em;
+}
+#letter{
+	font-family: Waiting for the Sunrise, cursive;
+	letter-spacing: .05em;
+	font-size: 1.3em;
+	background-image: url(../images/crumpled-paper2.jpg);
+	background-size: 100% 100%;
+	background-attachment: local;
+	font-weight: bolder;
+	line-height: 1.5em;
+}
+#lab p{
+	font-size: 1.2em;
+	margin-left: 5%;
+	font-weight: bold;
+}
+#sign{
+	font-family: Permanent Marker, sans-serif;
+	font-size: 2em;
+	margin: 0 20%;
+}
+#sign .xout{
+	left: 20%;
+}
+
+.xout{
+	position: absolute;
+	top: 0;
+	left: 10%;
+	font-family: inherit;
+	font-size: 1.5em;
+	background: none;
+	border: none;
+
+}
+
+
